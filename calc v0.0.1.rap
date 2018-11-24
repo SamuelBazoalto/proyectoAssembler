@@ -1,0 +1,121 @@
+[Project]
+Assembler=fasm
+Type=Win32 App
+Description=calc v0.0.1
+Backup=$P\Bak\
+Group=1
+GroupExpand=1
+[Files]
+1=calc v0.0.1.Asm
+2=calc v0.0.1.Inc
+3=calc v0.0.1.Rc
+4=calc v0.0.1.dlg
+[MakeFiles]
+0=calc v0.0.1.rap
+1=calc v0.0.1.rc
+2=calc v0.0.1.asm
+3=calc v0.0.1.obj
+4=calc v0.0.1.res
+5=calc v0.0.1.exe
+6=calc v0.0.1.def
+7=calc v0.0.1.dll
+8=calc v0.0.1.txt
+9=calc v0.0.1.lib
+10=calc v0.0.1.mak
+[MakeDef]
+Menu=1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0
+1=4,O,GORC /r,1
+2=5,O,FASM,2,5
+3=0,
+4=0,0,,5
+5=
+6=
+7=0,0,"$E\OllyDbg",5
+11=4,O,GORC /r,1
+12=5,O,FASM,2,5
+13=0,
+14=0,0,,5
+15=
+16=
+17=0,0,"$E\OllyDbg",5
+[Resource]
+[StringTable]
+[Accel]
+[VerInf]
+[Group]
+Group=Added files,Assembly,Resources,Misc,Modules
+1=2
+2=2
+3=3
+4=3
+[AutoLoad]
+AutoLoad=1,4,3
+[RADebugBP]
+1=
+0=
+[VersionControl]
+Settings=1246
+Milestones=129
+MilestoneEvery=10
+MilestoneEveryCurrent=0
+MilestoneOnBuild=0.0.0.0
+MilestoneOnTime=2
+MilestoneOnDate=0
+MilestoneOnDateWhen=1
+MilestoneOnDateStatus=0
+MilestoneOnDateDate=14
+MilestoneOnDateTimeYear=2018
+MilestoneOnDateTimeMonth=11
+MilestoneOnDateTimeDate=5
+MilestoneOnDateTimeHour=13
+MilestoneOnDateTimeMin=4
+MilestoneOnDateTimeSec=19
+MilestoneOnDateTimeStatus=0
+BackupLocation=C:\Pack RadASM\RadASM\Fasm\Projects\VCBackups\
+CompressionLevel=0
+DefaultComment=Project $N, $Z, Backup Created On $D At $T.
+ExcludeExt1=\
+ExcludeExt2=\
+ExcludeExt3=\
+ExcludeExt4=\
+FileVerLength=4
+FileVer2Range=0
+FileVer3Range=0
+FileVer4Range=0
+ProductVerLength=4
+ProductVer2Range=0
+ProductVer3Range=0
+ProductVer4Range=0
+[Colref]
+0=00FFFFFF
+1=00FFFFFF
+2=00FFFFFF
+3=00FFFFFF
+4=00FFFFFF
+5=00FFFFFF
+6=00FFFFFF
+7=00FFFFFF
+[PTimer]
+PTimer=227873141
+[Collapse]
+1=2168
+3=
+[Size]
+1=0,0,0,0,9255
+4=0,0,0,0
+3=0,0,0,0,0
+[GroupExpand]
+GroupExpand=0,1,0,0,1,0
+[BookMark]
+0=
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+[BreakPoint]
+0=
